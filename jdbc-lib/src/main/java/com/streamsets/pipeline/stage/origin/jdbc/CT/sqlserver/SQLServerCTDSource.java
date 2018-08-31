@@ -30,7 +30,7 @@ import com.streamsets.pipeline.stage.origin.jdbc.table.TableJdbcConfigBean;
 @StageDef(
     version = 2,
     label = "SQL Server Change Tracking Client",
-    description = "Origin that an read change events from an SQL Server Database",
+    description = "Origin that can read change events from an MS SQL Server Database",
     icon = "sql-server-multithreaded.png",
     resetOffset = true,
     producesEvents = true,
